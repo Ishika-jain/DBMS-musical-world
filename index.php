@@ -52,6 +52,9 @@
 						<li class="nav-item">
 							<a class="nav-link scroll" href="#contact">contact</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll" href='contributors.php'>contributors</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
