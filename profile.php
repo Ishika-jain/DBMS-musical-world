@@ -78,8 +78,8 @@
 			<div class="banner-text">
 				<div class="slider-info text-right">
 					<h1 class="text-uppercase">listen to music anywhere.</h1>
-					<p class="text-white">Are you a Singer?...Upload Your Music here and get featured.</p>
-					<a class="btn btn-agile  mt-4 scroll" href="#about" role="button">read more</a>
+					<p class="text-white">A ONE STOP DESTINATION FOR ALL YOUR MUSICAL CRAVINGS</p>
+					<a class="btn btn-agile  mt-4 scroll" href="#about" role="button">Read more</a>
 				</div>
 			</div>
 		</div>
@@ -98,9 +98,9 @@
 							<br> get addicted to music</h3>
 						<span class="w3-line"></span>
 						<p class="card-text align-self-center my-4 text-white">
-							Are you a singer?...But afraid to sing in front of a huge crowd.Then you are in the right place.Upload your songs to musical world and let the people listen to your songs and rate it.
+						Like to listen to songs and albums you download offline? Stream music online privately or with friends in our group chat? Get to know new music? Looking for a music streaming service that sounds better, is safer and custom-built for the music fans? Our product lets you do all this and more.
 						</p>
-						<p class="card-text align-self-center mb-5 text-white">Be the part of musical world.Upload your songs and get featured by greate musicians.</p>
+						<p class="card-text align-self-center mb-5 text-white">We've created a world-class music website where you can sign up for free to llisten to, download your favourite songs and even upload your own songs! If you're like us and love music then we're sure you'll love our website too! It's like Spotify but better!</p>
 						<a href="#more_info" class="btn btn-agile abt_card_btn scroll">Know More</a>
 					</div>
 				</div>

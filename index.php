@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<script>
-		addEventListener("load", function () {
+		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
 		}, false);
 
@@ -37,8 +37,7 @@
 				<a class="navbar-brand" href="index.php">
 					Musical World
 				</a>
-				<button class="navbar-toggler ml-lg-auto ml-sm-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler ml-lg-auto ml-sm-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -67,8 +66,8 @@
 			<div class="banner-text">
 				<div class="slider-info text-right">
 					<h1 class="text-uppercase">listen to music anywhere.</h1>
-					<p class="text-white">Are you a Singer?...Upload Your Music here and get featured.</p>
-					<a class="btn btn-agile  mt-4 scroll" href="#about" role="button">read more</a>
+					<p class="text-white">A ONE STOP DESTINATION FOR ALL YOUR MUSICAL CRAVINGS</p>
+					<a class="btn btn-agile  mt-4 scroll" href="#about" role="button">Read more</a>
 				</div>
 			</div>
 		</div>
@@ -84,12 +83,13 @@
 				<div class="card">
 					<div class="card-body px-lg-5">
 						<h3 class="stat-title card-title align-self-center mb-sm-5 mb-3">musical world
-							<br> get addicted to music</h3>
+							<br> get addicted to music
+						</h3>
 						<span class="w3-line"></span>
 						<p class="card-text align-self-center my-4 text-white">
-							Are you a singer?...But afraid to sing in front of a huge crowd.Then you are in the right place.Upload your songs to musical world and let the people listen to your songs and rate it.
+							Like to listen to songs and albums you download offline? Stream music online privately or with friends in our group chat? Get to know new music? Looking for a music streaming service that sounds better, is safer and custom-built for the music fans? Our product lets you do all this and more.
 						</p>
-						<p class="card-text align-self-center mb-5 text-white">Be the part of musical world.Upload your songs and get featured by greate musicians.</p>
+						<p class="card-text align-self-center mb-5 text-white"> We've created a world-class music website where you can sign up for free to llisten to, download your favourite songs and even upload your own songs! If you're like us and love music then we're sure you'll love our website too! It's like Spotify but better!</p>
 						<a href="#more_info" class="btn btn-agile abt_card_btn scroll">Know More</a>
 					</div>
 				</div>
@@ -97,125 +97,125 @@
 		</div>
 	</section>
 	<!-- //about -->
-	<?php 
-		include './footer.php';
-		?>
+	<?php
+	include './footer.php';
+	?>
 
 	<!--Modal: Login / Register Form-->
-<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog cascading-modal" role="document">
-	  <!--Content-->
-	  <div class="modal-content">
-  
-		<!--Modal cascading tabs-->
-		<div class="modal-c-tabs">
-  
-		  <!-- Nav tabs -->
-		  <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
-			<li class="nav-item">
-			  <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-user mr-1"></i>
-				Login</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-user-plus mr-1"></i>
-				Register</a>
-			</li>
-		  </ul>
-  
-		  <!-- Tab panels -->
-		  <div class="tab-content">
-			<!--Panel 7-->
-			<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
-  
-			  <!--Body-->
-			  <form action="validate.php" method="post">
-			  <div class="modal-body mb-1">
-				<div class="md-form form-sm mb-5">
-				  <i class="fa fa-envelope prefix"></i>
-				  <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" name="email_address" required>
-				  <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
-				</div>
-  
-				<div class="md-form form-sm mb-4">
-				  <i class="fa fa-lock prefix"></i>
-				  <input type="password" id="modalLRInput11" class="form-control form-control-sm validate" name="password" required>
-				  <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
-				</div>
-				<div class="text-center mt-2">
-				  <button class="btn btn-info" type="submit" name="login">Log in <i class="fa fa-sign-in ml-1"></i></button>
-				</div>
-			  </div>
-			</form>
-			  <!--Footer-->
-			  
-  
-			</div>
-			<!--/.Panel 7-->
-  
-			<!--Panel 8-->
-			<div class="tab-pane fade" id="panel8" role="tabpanel">
-  
-			  <!--Body-->
-			  <form action="validate.php" method="post">
-			   <div class="modal-body">
-				<div class="md-form form-sm mb-5">
-					<i class="fa fa-user prefix"></i>
-					<input type="text" id="modalLRInput11" class="form-control form-control-sm validate" name="username" required>
-					<label data-error="wrong" data-success="right" for="modalLRInput11">User Name</label>
-				</div>
+	<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog cascading-modal" role="document">
+			<!--Content-->
+			<div class="modal-content">
 
-				<div class="md-form form-sm mb-5">
-					<i class="fa fa-mobile prefix"></i>
-					<input type="text" id="modalLRInput15" class="form-control form-control-sm validate" name="mobile_number" required>
-					<label data-error="wrong" data-success="right" for="modalLRInput15">Mobile Number</label>
-				</div>
+				<!--Modal cascading tabs-->
+				<div class="modal-c-tabs">
 
-				<div class="md-form form-sm mb-5">
-				  <i class="fa fa-envelope prefix"></i>
-				  <input type="email" id="modalLRInput12" class="form-control form-control-sm validate" name="email_address" required>
-				  <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
-				</div>
-  
-				<div class="md-form form-sm mb-5">
-				  <i class="fa fa-lock prefix"></i>
-				  <input type="password" id="modalLRInput13" class="form-control form-control-sm validate" name="password" required>
-				  <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
-				</div>
-  
-				<!-- THIS IS FOR REPEAT PASSWORD -->
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-user mr-1"></i>
+								Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-user-plus mr-1"></i>
+								Register</a>
+						</li>
+					</ul>
 
-				<!-- <div class="md-form form-sm mb-4">
+					<!-- Tab panels -->
+					<div class="tab-content">
+						<!--Panel 7-->
+						<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+							<!--Body-->
+							<form action="validate.php" method="post">
+								<div class="modal-body mb-1">
+									<div class="md-form form-sm mb-5">
+										<i class="fa fa-envelope prefix"></i>
+										<input type="email" id="modalLRInput10" class="form-control form-control-sm validate" name="email_address" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+									</div>
+
+									<div class="md-form form-sm mb-4">
+										<i class="fa fa-lock prefix"></i>
+										<input type="password" id="modalLRInput11" class="form-control form-control-sm validate" name="password" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+									</div>
+									<div class="text-center mt-2">
+										<button class="btn btn-info" type="submit" name="login">Log in <i class="fa fa-sign-in ml-1"></i></button>
+									</div>
+								</div>
+							</form>
+							<!--Footer-->
+
+
+						</div>
+						<!--/.Panel 7-->
+
+						<!--Panel 8-->
+						<div class="tab-pane fade" id="panel8" role="tabpanel">
+
+							<!--Body-->
+							<form action="validate.php" method="post">
+								<div class="modal-body">
+									<div class="md-form form-sm mb-5">
+										<i class="fa fa-user prefix"></i>
+										<input type="text" id="modalLRInput11" class="form-control form-control-sm validate" name="username" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput11">User Name</label>
+									</div>
+
+									<div class="md-form form-sm mb-5">
+										<i class="fa fa-mobile prefix"></i>
+										<input type="text" id="modalLRInput15" class="form-control form-control-sm validate" name="mobile_number" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput15">Mobile Number</label>
+									</div>
+
+									<div class="md-form form-sm mb-5">
+										<i class="fa fa-envelope prefix"></i>
+										<input type="email" id="modalLRInput12" class="form-control form-control-sm validate" name="email_address" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+									</div>
+
+									<div class="md-form form-sm mb-5">
+										<i class="fa fa-lock prefix"></i>
+										<input type="password" id="modalLRInput13" class="form-control form-control-sm validate" name="password" required>
+										<label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+									</div>
+
+									<!-- THIS IS FOR REPEAT PASSWORD -->
+
+									<!-- <div class="md-form form-sm mb-4">
 				  <i class="fa fa-lock prefix"></i>
 				  <input type="password" id="modalLRInput14" class="form-control form-control-sm validate" name="confirm_password" required>
 				  <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
 				</div> -->
-  
-				<div class="text-center form-sm mt-2">
-				  <button class="btn btn-info" type="submit" name="register">Sign up <i class="fa fa-sign-in ml-1"></i></button>
-				</div>
-			  </div>
-			</form>
-			  <!--Footer-->
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-			<!--/.Panel 8-->
-		  </div>
-  
-		</div>
-	  </div>
-	  <!--/.Content-->
-	</div>
-  </div>
-  <!--Modal: Login / Register Form-->
 
-  <!-- Modal for Forgot Password -->
-			</form>
-      </div>
+									<div class="text-center form-sm mt-2">
+										<button class="btn btn-info" type="submit" name="register">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+									</div>
+								</div>
+							</form>
+							<!--Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+						<!--/.Panel 8-->
+					</div>
+
+				</div>
+			</div>
+			<!--/.Content-->
 		</div>
-  </div>
-</div>
+	</div>
+	<!--Modal: Login / Register Form-->
+
+	<!-- Modal for Forgot Password -->
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
 
 	<!-- js-->
 	<script src="js/jquery-2.2.3.min.js"></script>
@@ -226,21 +226,21 @@
 	<script src="js/move-top.js "></script>
 	<script src="js/easing.js "></script>
 	<script>
-		jQuery(document).ready(function ($) {
-			$(".scroll ").click(function (event) {
+		jQuery(document).ready(function($) {
+			$(".scroll ").click(function(event) {
 				event.preventDefault();
 
 				$('html,body').animate({
 					scrollTop: $(this.hash).offset().top
 				}, 1000);
 			});
-			
+
 		});
 	</script>
 	<!-- //end-smooth-scrolling -->
 	<!-- smooth-scrolling-of-move-up -->
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			$().UItoTop({
 				easingType: 'easeOutQuart'
 			});

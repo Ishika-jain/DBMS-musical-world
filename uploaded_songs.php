@@ -168,7 +168,7 @@
 	<!-- //header -->
 
 	<center><br><b><div class="alert alert-primary" role="alert">
-  Are you a singer?...<a href="#" class="alert-link">Upload your songs below</a>. And get featured.
+  Can't find your favourite song here? .<a href="#" class="alert-link">Upload your songs below</a>. 
 	</div><b><center>
 
 <form method="post" action="uploaded_songs.php" enctype="multipart/form-data">
@@ -202,7 +202,7 @@
 </form>
 
 <center><b><div class="alert alert-primary" role="alert">
-  Most featured songs...<a href="#" class="alert-link">Listen to music </a>. And have fun.
+  Our top songs are here<a href="#" class="alert-link">Listen to music </a>. And have fun.
 	</div><b><center>
 
 		<?php

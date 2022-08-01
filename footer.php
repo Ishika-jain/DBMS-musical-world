@@ -2,8 +2,8 @@
 <div class="contact-top text-center" id="more_info">
 		<div class="content-contact-top">
 			<h3 class="stat-title text-white">For more information</h3>
-			<h2 class="stat-title text-white">Stay in touch</h2>
-			<p class="text-white w-75 mx-auto">Musical World a unique platform for upcoming singers.
+			<h2 class="stat-title text-white">Stay tuned</h2>
+			<p class="text-white w-75 mx-auto">Musical World a unique platform for all music lovers.
 			</p>
 		</div>
 	</div>
